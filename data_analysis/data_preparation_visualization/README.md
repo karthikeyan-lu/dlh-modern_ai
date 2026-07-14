@@ -1,277 +1,149 @@
-# Machine Learning Foundations - AI Academy (DLH)
+# Data Preparation and Visualization
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
-![NumPy](https://img.shields.io/badge/NumPy-1.25.2-orange)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8.3-green)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
-![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
-![MongoDB](https://img.shields.io/badge/MongoDB-Shell%20%26%20PyMongo-green)
-![Calculus](https://img.shields.io/badge/Calculus-Core-red)
-![Linear Algebra](https://img.shields.io/badge/Linear%20Algebra-Advanced-purple)
-![Probability](https://img.shields.io/badge/Probability-Distributions-orange)
-![Bayesian Probability](https://img.shields.io/badge/Bayesian%20Probability-Inference-teal)
-![Multivariate Probability](https://img.shields.io/badge/Multivariate%20Probability-Gaussian%20Models-green)
-![Statistics](https://img.shields.io/badge/Statistics-Foundations-yellow)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![Scikit--Learn](https://img.shields.io/badge/scikit--learn-Machine%20Learning-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-red)
 
-This repository contains my mathematics, probability, visualization, and data pipeline exercises completed during the AI Academy program at Digital Learning Hub Luxembourg (DLH). The projects provide hands-on experience with calculus, linear algebra, probability, Bayesian inference, multivariate probability, statistics, data visualization, Pandas, SQL, MongoDB, and foundational machine learning mathematics.
+This repository contains my **Data Preparation and Visualization** exercises completed during the AI Academy at Digital Learning Hub Luxembourg (DLH). The module focuses on preparing real-world datasets for machine learning through data exploration, cleaning, preprocessing, feature engineering, visualization, statistical analysis, encoding, scaling, and train/test splitting.
 
 ---
 
 ## Objective
 
-To build the mathematical and technical foundations required for machine learning by learning:
+Build practical data preprocessing skills required before training machine learning models by learning to:
 
-- Calculus notation and polynomial calculus
-- Linear algebra operations using Python and NumPy
-- Advanced matrix operations and definiteness
-- Probability distributions and statistical modeling
-- Bayesian probability and posterior inference
-- Multivariate probability and Gaussian modeling
-- Data visualization using Matplotlib
-- Data manipulation and analysis using Pandas
-- SQL database querying and optimization
-- MongoDB shell operations
-- PyMongo document workflows
-- Data pipeline and log analytics concepts
+- Explore and understand datasets
+- Handle missing values and duplicates
+- Clean and transform features
+- Encode categorical variables
+- Scale numerical features
+- Engineer new features
+- Visualize distributions and relationships
+- Perform statistical hypothesis testing
+- Prepare datasets for machine learning
 
 ---
 
 ## Topics Covered
 
-### Mathematics
+### Data Exploration
+- Dataset shape and structure
+- Data types
+- Missing value analysis
+- Duplicate detection
+- Summary statistics
 
-- Summation and product notation
-- Derivatives and partial derivatives
-- Indefinite, definite, and double integrals
-- Matrix shapes and slicing
-- Matrix addition, concatenation, and multiplication
-- Determinants, minors, cofactors, adjugates, and inverses
-- Eigenvalues and matrix definiteness
+### Data Cleaning
+- Missing value handling
+- Duplicate removal
+- Data type conversion
+- Outlier awareness
 
-### Probability and Statistics
-
-- Poisson Distribution
-- Exponential Distribution
-- Normal Distribution
-- Binomial Distribution
-- PMF (Probability Mass Function)
-- PDF (Probability Density Function)
-- CDF (Cumulative Distribution Function)
-- Mean and Variance
-- Standard Deviation
-- Z-Scores
-- Method of Moments
-- Prior Probability
-- Likelihood
-- Marginal Probability
-- Posterior Probability
-- Continuous Posterior Intervals
-- Mean Vectors
-- Covariance Matrices
-- Correlation Matrices
-- Multivariate Normal Distribution
-- Multivariate PDF
+### Feature Engineering
+- Creating derived features
+- Encoding categorical variables
+- Scaling numerical variables
 
 ### Visualization
-
-- Line graphs
-- Scatter plots
 - Histograms
-- Stacked bar charts
-- Subplots
-- Logarithmic scales
-- Color gradients and color bars
-- PCA visualization in 3D
+- Box plots
+- Scatter plots
+- Correlation analysis
+- Distribution analysis
 
-### Data Analysis
+### Statistics
+- Chi-Square Test
+- T-Test
+- Feature relationships
 
-- Pandas DataFrames
-- Data cleaning and preprocessing
-- Missing value handling
-- Time-series analysis
-- Hierarchical indexing
-- Data aggregation and visualization
-
-### Data Pipeline and Databases
-
-- MySQL database and table creation
-- SQL filtering, sorting, aggregation, and joins
-- SQL constraints, indexes, views, triggers, functions, and procedures
-- MongoDB CRUD operations
-- MongoDB Aggregation Framework
-- PyMongo document workflows
-- Nginx log analytics
+### Machine Learning Preparation
+- Train/Test split
+- Feature matrix creation
+- Target separation
 
 ---
 
-## Project Modules
-
-| Folder | Description |
-| --- | --- |
-| `math/calculus` | Calculus notation, derivatives, integrals, and polynomial calculus |
-| `math/linear_algebra` | Matrix operations using Python lists and NumPy |
-| `math/advanced_linear_algebra` | Determinants, inverses, adjugates, minors, cofactors, and definiteness |
-| `math/probability` | Probability distributions and statistical modeling |
-| `math/bayesian_prob` | Bayesian probability, likelihood, marginal probability, and posterior inference |
-| `math/multivariate_prob` | Mean vectors, covariance, correlation, and multivariate normal distributions |
-| `math/plotting` | Data visualization using Matplotlib and NumPy |
-| `pipeline/pandas` | Data manipulation, cleaning, analysis, and visualization using Pandas |
-| `pipeline/databases` | MySQL, MongoDB shell, and PyMongo exercises |
-
----
-
-## Key Concepts Used
-
-### Mathematics
-
-- Calculus
-- Linear Algebra
-- Matrix Theory
-- Eigenvalues and Definiteness
-
-### Probability and Statistics
-
-- Probability Distributions
-- PMF, PDF, and CDF
-- Statistical Estimation
-- Bayesian Inference
-- Prior, Likelihood, Marginal, and Posterior Probability
-- Multivariate Probability
-- Covariance and Correlation
-- Multivariate Normal Distributions
-- Mean and Variance
-- Standard Deviation
-- Z-Scores
-- Method of Moments
-
-### Programming
-
-- Python Functions
-- Recursive Algorithms
-- Object-Oriented Programming
-- Numerical Computing
-
-### Data Technologies
-
-- NumPy
-- Pandas
-- Matplotlib
-- SQL
-- MySQL
-- MongoDB
-- PyMongo
-
----
-
-## Project Structure
+## Repository Structure
 
 ```text
-dlh-machine_learning/
-|
-├── math/
-│   ├── calculus/
-│   ├── linear_algebra/
-│   ├── advanced_linear_algebra/
-│   ├── probability/
-│   ├── bayesian_prob/
-│   ├── multivariate_prob/
-│   └── plotting/
-│
-├── pipeline/
-│   ├── pandas/
-│   └── databases/
-│
-├── requirements.txt
-├── aiacademy.yml
-└── README.md
+DLH-MODERN_AI/
+├── data_analysis/
+│   └── data_preparation_visualization/
+│       ├── 0-...
+│       ├── ...
+│       ├── README.md
+├── README.md
+└── .gitignore
 ```
+
+---
+
+## Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- SciPy
+
+---
+
+## Dataset
+
+**Telco Customer Churn** dataset
+
+The exercises analyze customer demographics, services, billing information, and churn behaviour to prepare data for predictive machine learning models.
+
+---
+
+## Learning Outcomes
+
+After completing this module I can:
+
+- Inspect datasets efficiently
+- Clean production datasets
+- Handle categorical and numerical data
+- Engineer meaningful features
+- Visualize data effectively
+- Apply statistical tests
+- Prepare ML-ready datasets
 
 ---
 
 ## Requirements
 
-- Ubuntu 20.04 LTS
-- Python 3.9
-- NumPy 1.25.2
-- Matplotlib 3.8.3
-- Pandas
-- SciPy
-- Pillow 10.3.0
-- MySQL
-- MongoDB
-- PyMongo
-- `pycodestyle` 2.11.1
+- Ubuntu 20.04+
+- Python 3.9+
+- pandas
+- numpy
+- matplotlib
+- scipy
+- scikit-learn
+- pycodestyle
 
----
-
-## Usage
-
-Run a linear algebra task:
+Install dependencies:
 
 ```bash
-python3 math/linear_algebra/0-slice_me_up.py
-```
-
-Run a probability task:
-
-```bash
-python3 math/probability/normal.py
-```
-
-Run a Bayesian probability task:
-
-```bash
-python3 math/bayesian_prob/3-main.py
-```
-
-Run a multivariate probability task:
-
-```bash
-python3 math/multivariate_prob/3-main.py
-```
-
-Run a plotting task:
-
-```bash
-python3 math/plotting/6-bars.py
-```
-
-Run a Pandas task:
-
-```bash
-python3 pipeline/pandas/14-visualize.py
-```
-
-Run a MySQL script:
-
-```bash
-mysql -uroot -p < pipeline/databases/0-create_database_if_missing.sql
-```
-
-Run a PyMongo script:
-
-```bash
-python3 pipeline/databases/34-log_stats.py
+pip install pandas numpy matplotlib scipy scikit-learn
 ```
 
 ---
 
-## Module READMEs
+## Example
 
-- `math/calculus/README.md`
-- `math/linear_algebra/README.md`
-- `math/advanced_linear_algebra/README.md`
-- `math/probability/README.md`
-- `math/bayesian_prob/README.md`
-- `math/multivariate_prob/README.md`
-- `math/plotting/README.md`
-- `pipeline/pandas/README.md`
-- `pipeline/databases/README.md`
+```bash
+cd data_analysis/data_preparation_visualization
+python3 0-describe_data.py
+```
 
 ---
 
 ## Author
 
-Karthikeyan Marimuthu - AI Academy, Digital Learning Hub Luxembourg
+**Karthikeyan Marimuthu**
+
+AI Academy — Digital Learning Hub Luxembourg (DLH)
